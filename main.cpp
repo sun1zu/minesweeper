@@ -6,7 +6,7 @@
 
 //game by GhostK inspired by Relax
 //TODO: figure out the bug when game crashes on delta(x, y) ~>2
-//TODO: make it crash resistent when you enter wrong move command
+//TODO: make it crash-resistant when you enter wrong move command
 //TODO: fix pseudo random
 //TODO: add autofilling empty cells when selected
 
@@ -50,7 +50,7 @@ void newgame(int w, int h, int nmines = 10){
 	bool end = false, win = false;
 	vector<vector<char>> visible (w-2,vector<char>(h-2,'?'));
 	int score = 0;	
-	int falseMined = false;	//true if at lesat one flag is not on the mine
+	int falseMined = false;	//true if at least one flag is not on the mine
 	//game cycle
 	while(!end){
 		system("cls");
@@ -128,8 +128,8 @@ void newgame(int w, int h, int nmines = 10){
 }
 
 int main(){
-	cout << "MINESWEPPER v0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2" << endl;
-	cout << "github link: https://github.com/sun1zu/mineswepper" << endl;
+	cout << "MINESWEEPER v0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2" << endl;
+	cout << "github link: https://github.com/sun1zu/minesweeper" << endl;
 	cout << endl << endl;
 	int w, h, n;
 	char cont = 'y';

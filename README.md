@@ -1,2 +1,2 @@
-# mineswepper
+# minesweeper
 Simple console C++ game
